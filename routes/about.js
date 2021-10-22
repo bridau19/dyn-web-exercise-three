@@ -12,6 +12,8 @@ router.get('/', (req, res) => {
 router.get('/me', (req, res) => {
     res.send(`
     <h1>About me</h1>
+    <p>This is a page about me.</p>
+    <p><a href="/about">About</a></p>
     `);
 });
 
